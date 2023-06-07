@@ -1,16 +1,8 @@
 package com.vburcovschi.spring.springboot.sprind_datajpa.dao;
 
 
-import com.vburcovschi.spring.springboot.spring_boot.entity.Employee;
+import com.vburcovschi.spring.springboot.sprind_datajpa.entity.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
-
-public interface EmployeeDAO {
-    public List<Employee> getAllEmployee();
-
-    public void saveEmployee(Employee employee);
-
-    Employee getEmployee(int id);
-
-    public void removeEmployee(int id);
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 }

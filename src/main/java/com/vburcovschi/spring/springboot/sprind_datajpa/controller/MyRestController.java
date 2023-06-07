@@ -1,7 +1,7 @@
-package com.vburcovschi.spring.springboot.spring_boot.controller;
+package com.vburcovschi.spring.springboot.sprind_datajpa.controller;
 
-import com.vburcovschi.spring.springboot.spring_boot.entity.Employee;
-import com.vburcovschi.spring.springboot.spring_boot.service.EmployeeService;
+import com.vburcovschi.spring.springboot.sprind_datajpa.entity.Employee;
+import com.vburcovschi.spring.springboot.sprind_datajpa.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

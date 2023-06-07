@@ -1,7 +1,7 @@
-package com.vburcovschi.spring.springboot.spring_boot.service;
+package com.vburcovschi.spring.springboot.sprind_datajpa.service;
 
 
-import com.vburcovschi.spring.springboot.spring_boot.entity.Employee;
+import com.vburcovschi.spring.springboot.sprind_datajpa.entity.Employee;
 
 import java.util.List;
 

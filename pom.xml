@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vburcovschi.spring.springboot</groupId>
-    <artifactId>sprind_dataJPA</artifactId>
+    <artifactId>spring_dataJPA</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sprind_dataJPA</name>
     <description>sprind_dataJPA</description>

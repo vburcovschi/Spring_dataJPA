@@ -46,4 +46,16 @@ public class MyRestController {
         employeeService.removeEmployee(id);
         return "Employee with id= "+id+" was deleted";
     }
+
+    @GetMapping("/employees/name/{name}")
+    public List<Employee> showAllEmployeeByName(@PathVariable String name){
+            List<Employee> employees = employeeService.findAllByName(name);
+            return employees;
+        }
+
+    @GetMapping("/employees/salary/{min}/{max}")
+    public List<Employee> showAllEmployeeByName(@PathVariable Integer min, @PathVariable Integer max){
+        List<Employee> employees = employeeService.findAllBySalaryBetween(min,max);
+        return employees;
+    }
 }

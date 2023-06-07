@@ -14,4 +14,7 @@ public interface EmployeeService {
     public Employee getEmployee(int id);
 
     public void removeEmployee(int id);
+
+    public List<Employee> findAllByName(String name);
+    public List<Employee> findAllBySalaryBetween(int min, int max);
 }

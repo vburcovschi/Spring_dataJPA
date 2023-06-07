@@ -41,4 +41,18 @@ public class EmployeeServiceImpl implements EmployeeService{
     public void removeEmployee(int id) {
         employeeRepository.deleteById(id);
     }
+
+    @Override
+    public List<Employee> findAllByName(String name) {
+        List<Employee> employees = employeeRepository.findAllByName(name);
+        return employees;
+    }
+
+    @Override
+    public List<Employee> findAllBySalaryBetween(int min, int max) {
+        List<Employee>employees = employeeRepository.findAllBySalaryBetween(min, max);
+        return  employees;
+    }
+
+
 }
